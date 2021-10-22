@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="]B5T,(c6?k[TIB,!4eRe">penguin</variable><variable type="KIND_SpriteKind" id="U1E};TJ*^0AZ=)Uyk8aZ">Penguin</variable><variable type="KIND_SpriteKind" id="r|JpkH`}X0E{:L^d}L{l">Player</variable><variable type="KIND_SpriteKind" id=",wgyUi1hi%4mB%gd(0M+">Projectile</variable><variable type="KIND_SpriteKind" id="Y(uT=#lW~M%SBDV1neEQ">Food</variable><variable type="KIND_SpriteKind" id="w[1=CE+1CSs9M+lfZeui">Enemy</variable></variables><block type="pxt-on-start" id="cemm%dx@fKS4]+7wA.X^" x="0" y="0"><statement name="HANDLER"><block type="controls_repeat_ext" id="oY-$uq1xbV_D.(WyNx#T"><value name="TIMES"><shadow type="math_whole_number" id="Qu`n=m.y*w2NLbq-M;7R"><field name="NUM">3000</field></shadow></value><statement name="DO"><block type="variables_set" id="9?rVq)ABFi$43Hg(8(LP"><field name="VAR" id="]B5T,(c6?k[TIB,!4eRe">penguin</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="2yS*|Lr90BPUQ$(04QLL"><value name="img"><shadow type="screen_image_picker" id="/:I#^8XO5?!-DI}QiafQ"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . f f f f . . . . . . 
+. . . . . f f f f f . . . . . . 
+. . . . . f 1 f f f f . . . . . 
+. . . . f f f f f 1 f . . . . . 
+. . . f f f f 4 f f f f . . . . 
+. . . f f f f f f f f f . . . . 
+. . . f f f f f f f f f . . . . 
+. . . f f f 1 1 1 f f f . . . . 
+. . . f f 1 1 1 1 f f f . . . . 
+. . f f f 1 1 1 1 1 f f . . . . 
+. . f f f 1 1 1 1 1 f f . . . . 
+. . f f f 1 1 1 1 1 f f . . . . 
+. . f f f 1 1 1 1 f f f . . . . 
+. . f f f f 1 1 1 f f . . . . . 
+. . . f . . 1 1 . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"/:I#^8XO5?!-DI}QiafQ"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="Dk6C=,`TkFCcjdd%?3GR"><field name="MEMBER">Penguin</field></shadow></value></block></value><next><block type="Sprite_blockCombine_set" id="K]gK_`I%J!u.v){m4xqM"><field name="property">Sprite.y@set</field><value name="mySprite"><block type="variables_get" id="TsP-Yd-R9zYv5yY-1(2B"><field name="VAR" id="]B5T,(c6?k[TIB,!4eRe">penguin</field></block></value><value name="value"><shadow type="math_number" id="wpWdMo1N;Xej1%HSf.=L"><field name="NUM">40</field></shadow></value><next><block type="device_pause" id="ak#d:W4hs}(`~`ckr5TE"><value name="pause"><shadow type="timePicker" id="doiy4V(4|Egn/jzuW+h7"><field name="ms">500</field></shadow></value></block></next></block></next></block></statement></block></statement></block></xml>
